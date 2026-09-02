@@ -14,7 +14,7 @@ Fixes #
 - [ ] Bug fix
 - [ ] Feature / enhancement
 - [ ] Documentation
-- [ ] Infrastructure (OpenTofu root or module)
+- [ ] Deployment or host configuration
 - [ ] GitOps desired state (manifests, kustomize, charts, SOPS/KSOPS secrets)
 - [ ] Container image
 - [ ] CI / reusable workflow
@@ -42,7 +42,6 @@ self-contained changes.
 ## Safety and secrets
 
 - [ ] Contains no plaintext secrets, decrypted SOPS values, state files, kubeconfigs, tokens, or private endpoints
-- [ ] No local OpenTofu init/plan/apply/destroy/import/state operations were run or claimed — plans come from pull-request checks
 - [ ] Breaking or irreversible effects are described above with rollback notes
 
 <!--
